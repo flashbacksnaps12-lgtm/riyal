@@ -42,7 +42,7 @@ export default function TourPackagesSection() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#1A1A1A] text-balance">
             Rajdani Tour Packages
           </h2>
-          <p className="text-sm sm:text-base md:text-lg text-[#666666] leading-relaxed">
+          <p className="text-base sm:text-base md:text-lg text-[#666666] leading-relaxed">
             Embark on an unforgettable journey with Rajdani Travels&apos; thoughtfully crafted tour packages. From serene weekend escapes to immersive cultural holidays and thrilling road adventures, our curated collection of tours invites you to discover the world beyond the ordinary. At Rajdani Travels, we blend comfort, adventure, and local insight to bring you travel experiences that leave lasting memories.
           </p>
         </div>
@@ -85,8 +85,8 @@ export default function TourPackagesSection() {
 
               {/* Content */}
               <div className="p-4 md:p-6 space-y-3 md:space-y-4">
-                <h3 className="text-lg md:text-xl font-bold text-[#1A1A1A] text-balance">{pkg.name}</h3>
-                <p className="text-xs sm:text-sm text-[#666666]">Contact For More Details</p>
+                <h3 className="text-base md:text-xl font-bold text-[#1A1A1A] text-balance">{pkg.name}</h3>
+                <p className="text-sm md:text-base text-[#666666]">Contact For More Details</p>
                 
                 <button 
                   onClick={() => sendToWhatsApp(`Hey Rajdani Travels! I want to book ${pkg.name}.`)}
