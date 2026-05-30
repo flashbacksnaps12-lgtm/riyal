@@ -19,7 +19,7 @@ export default function AboutSection() {
               Explore the World with Rajdani Travels
             </h1>
 
-            <div className="space-y-1.5 md:space-y-2 text-xs sm:text-sm md:text-base text-[#666666] leading-relaxed">
+            <div className="space-y-1.5 md:space-y-2 text-sm sm:text-base text-[#666666] leading-relaxed">
               <p>
                 At <strong className="text-[#1A1A1A]">Rajdhani Travel</strong>, we specialize in crafting <strong className="text-[#1A1A1A]">Customized Travel Experiences</strong> that fulfill the unique dreams and desires of our valued clients.
               </p>
