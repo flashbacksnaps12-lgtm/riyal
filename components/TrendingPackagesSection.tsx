@@ -44,7 +44,7 @@ export default function TrendingPackagesSection() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#1A1A1A] text-balance">
             Trending Tour Packages
           </h2>
-          <p className="text-xs sm:text-sm md:text-base lg:text-lg text-[#1A1A1A] leading-relaxed">
+          <p className="text-sm sm:text-base md:text-base lg:text-lg text-[#1A1A1A] leading-relaxed">
             At <strong>Rajdani Travels</strong>, We Believe That Travel Is More Than Just Ticking Off Destinations—It&apos;s About Creating Unforgettable Experiences, Exploring New Cultures, And Discovering The Beauty Our World Has To Offer. Whether You&apos;re Dreaming Of Snow-Capped Mountains, Golden Deserts, Sacred Shrines, Or Vibrant Cities, <strong>We&apos;re Here To Make Your Journey Seamless, Affordable, And Truly Special.</strong>
           </p>
         </div>
@@ -62,13 +62,13 @@ export default function TrendingPackagesSection() {
               </div>
 
               {/* Card Title */}
-              <h3 className="text-sm md:text-base font-bold text-[#1A1A1A] mb-2 text-balance">{pkg.name}</h3>
+              <h3 className="text-base md:text-base font-bold text-[#1A1A1A] mb-2 text-balance">{pkg.name}</h3>
 
               {/* Duration */}
-              <p className="text-xs font-bold text-[#1A1A1A] mb-2 md:mb-3">{pkg.duration}</p>
+              <p className="text-sm font-bold text-[#1A1A1A] mb-2 md:mb-3">{pkg.duration}</p>
 
               {/* Itinerary Line */}
-              <p className="text-xs text-[#666666] mb-2 md:mb-3 leading-snug">
+              <p className="text-sm text-[#666666] mb-2 md:mb-3 leading-snug">
                 Itinerary: {pkg.highlights.map((h) => {
                   if (h === 'Yamunotri') return '📍 Yamunotri';
                   if (h === 'Gangotri') return '→ Gangotri';
@@ -85,7 +85,7 @@ export default function TrendingPackagesSection() {
               </p>
 
               {/* Includes */}
-              <p className="text-xs text-[#666666] mb-2 md:mb-3 leading-snug">
+              <p className="text-sm text-[#666666] mb-2 md:mb-3 leading-snug">
                 {pkg.includes.map((item, idx) => {
                   const icon = 
                     item === 'Cab Transfers' ? '🚗' :
@@ -99,7 +99,7 @@ export default function TrendingPackagesSection() {
               </p>
 
               {/* Footer Text */}
-              <p className="text-xs text-[#666666] mb-3 md:mb-4">
+              <p className="text-sm text-[#666666] mb-3 md:mb-4">
                 {pkg.name.includes('Char') && 'Your Divine Yatra Partner.'}
                 {pkg.name.includes('Amarnath') && 'Your Divine Yatra Partner – Rajdani Travels.'}
                 {pkg.name.includes('Vaishno') && 'Your Divine Yatra Partner – Rajdani Travels.'}

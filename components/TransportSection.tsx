@@ -39,7 +39,7 @@ export default function TransportSection() {
               <h3 className="text-xl md:text-2xl font-bold text-[#1A1A1A]">Our Transport Services Include</h3>
               <ol className="space-y-2 md:space-y-3 list-decimal list-inside">
                 {transportServices.map((service, idx) => (
-                  <li key={idx} className="text-[#1A1A1A] text-xs sm:text-sm md:text-base leading-relaxed">
+                  <li key={idx} className="text-[#1A1A1A] text-sm sm:text-base md:text-base leading-relaxed">
                     {service}
                   </li>
                 ))}
@@ -50,12 +50,12 @@ export default function TransportSection() {
             <div className="space-y-3 md:space-y-4">
               <div>
                 <h4 className="text-base md:text-lg font-bold text-[#1A1A1A] mb-2">Need A Cab?</h4>
-                <p className="text-[#1A1A1A] text-xs sm:text-sm md:text-base leading-relaxed">
+                <p className="text-[#1A1A1A] text-sm sm:text-base md:text-base leading-relaxed">
                   Call Or WhatsApp Us At <strong className="break-all">+91- 91495 11328, +91 97967 55550</strong> To Book Your Ride Instantly.
                 </p>
               </div>
 
-              <p className="text-[#1A1A1A] text-xs sm:text-sm md:text-base">
+              <p className="text-[#1A1A1A] text-sm sm:text-base md:text-base">
                 Or Simply Mention Your Transport Requirements In Our Tour Enquiry Form!
               </p>
             </div>

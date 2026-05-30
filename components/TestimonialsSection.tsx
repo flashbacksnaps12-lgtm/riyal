@@ -70,14 +70,14 @@ export default function TestimonialsSection() {
             </div>
 
             {/* Review Text */}
-            <p className="text-xs sm:text-sm md:text-base lg:text-lg text-[#666666] leading-relaxed mb-4 md:mb-6 italic">
+            <p className="text-sm sm:text-base md:text-base lg:text-lg text-[#666666] leading-relaxed mb-4 md:mb-6 italic">
               &quot;{testimonials[current].review}&quot;
             </p>
 
             {/* Customer Info */}
             <div>
               <h4 className="text-base md:text-lg lg:text-xl font-bold text-[#1A1A1A]">{testimonials[current].name}</h4>
-              <p className="text-[#FBBF24] font-semibold text-xs md:text-sm">{testimonials[current].location}</p>
+              <p className="text-[#FBBF24] font-semibold text-sm md:text-base">{testimonials[current].location}</p>
             </div>
           </div>
 
