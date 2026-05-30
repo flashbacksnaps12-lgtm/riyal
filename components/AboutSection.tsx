@@ -14,7 +14,7 @@ export default function AboutSection() {
 
           {/* Right Content */}
           <div className="space-y-2 md:space-y-3 flex flex-col justify-center">
-            <p className="text-[#FBBF24] font-bold text-xs md:text-sm">Where to Next? Let&apos;s find out together.</p>
+            <p className="text-[#FBBF24] font-bold text-sm sm:text-lg">Where to Next? Let&apos;s find out together.</p>
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1A1A1A] leading-tight text-balance">
               Explore the World with Rajdani Travels
             </h1>
