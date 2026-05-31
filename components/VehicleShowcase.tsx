@@ -3,11 +3,11 @@ const vehicles = [
   { id: 1, name: '5 Seater | Etios', image: '🚗' },
   { id: 2, name: '7 Seater | Ertiga', image: '🚗' },
   { id: 3, name: '7 Seater | Innova', image: '🚗' },
-  { id: 4, name: '20+ Seater | Force', image: '🚌' },
+  { id: 4, name: '20+ Seater | Force', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%202.23.03%20PM%20%281%29-IMYw206thVZr3J5FfB3401zv8zQ6No.jpeg' },
   // Bottom row - 3 vehicles
-  { id: 5, name: '30 Seater | Bus', image: '🚌' },
-  { id: 6, name: '27 Seater | Bus', image: '🚌' },
-  { id: 7, name: '12 Seater | Force', image: '🚌' },
+  { id: 5, name: '30 Seater | Bus', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%202.23.02%20PM%20%282%29-KDgygJLghlG9ZpekOzDJMRndxS4FXZ.jpeg' },
+  { id: 6, name: '27 Seater | Bus', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%202.23.02%20PM%20%281%29-1Z905pXJPX4qDLIieVtxdHSPDtmt01.jpeg' },
+  { id: 7, name: '12 Seater | Force', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%202.23.03%20PM-Vq29QWf4i8CIyh1IlvWbzftTd5rXKN.jpeg' },
 ];
 
 export default function VehicleShowcase() {
@@ -32,9 +32,13 @@ export default function VehicleShowcase() {
               key={vehicle.id}
               className="bg-white border-2 border-[#1A1A1A] rounded-lg overflow-hidden flex flex-col w-full"
             >
-              {/* Image Placeholder */}
-              <div className="w-full aspect-video bg-gray-300 flex items-center justify-center">
-                <span className="text-4xl md:text-5xl text-gray-500">□</span>
+              {/* Image */}
+              <div className="w-full aspect-video bg-gray-300 flex items-center justify-center overflow-hidden">
+                {typeof vehicle.image === 'string' && vehicle.image.startsWith('http') ? (
+                  <img src={vehicle.image} alt={vehicle.name} className="w-full h-full object-cover" />
+                ) : (
+                  <span className="text-4xl md:text-5xl text-gray-500">{vehicle.image}</span>
+                )}
               </div>
 
               {/* Card Content */}
@@ -55,9 +59,13 @@ export default function VehicleShowcase() {
               key={vehicle.id}
               className="bg-white border-2 border-[#1A1A1A] rounded-lg overflow-hidden flex flex-col w-full"
             >
-              {/* Image Placeholder */}
-              <div className="w-full aspect-video bg-gray-300 flex items-center justify-center">
-                <span className="text-4xl md:text-5xl text-gray-500">□</span>
+              {/* Image */}
+              <div className="w-full aspect-video bg-gray-300 flex items-center justify-center overflow-hidden">
+                {typeof vehicle.image === 'string' && vehicle.image.startsWith('http') ? (
+                  <img src={vehicle.image} alt={vehicle.name} className="w-full h-full object-cover" />
+                ) : (
+                  <span className="text-4xl md:text-5xl text-gray-500">{vehicle.image}</span>
+                )}
               </div>
 
               {/* Card Content */}

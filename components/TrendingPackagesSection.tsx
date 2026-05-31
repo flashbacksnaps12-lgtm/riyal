@@ -61,11 +61,11 @@ export default function TrendingPackagesSection() {
               className="bg-white flex flex-col text-center p-4 md:p-6 border border-gray-200 rounded"
             >
               {/* Image */}
-              <div className="w-full h-32 md:h-40 mb-3 md:mb-4 -mx-4 md:-mx-6 -mt-4 md:-mt-6 rounded-t overflow-hidden">
+              <div className="h-32 md:h-40 mb-3 md:mb-4 -mx-4 md:-mx-6 -mt-4 md:-mt-6 rounded-t overflow-hidden flex items-center justify-center bg-gray-100">
                 <img 
                   src={pkg.image} 
                   alt={pkg.name}
-                  className="w-full h-full object-cover"
+                  className="h-full object-cover"
                 />
               </div>
 
