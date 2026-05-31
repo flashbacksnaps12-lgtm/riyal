@@ -11,6 +11,7 @@ const trendingPackages = [
     duration: '9 Nights / 10 Days',
     highlights: ['Yamunotri', 'Gangotri', 'Kedarnath', 'Badrinath'],
     includes: ['Cab Transfers', 'Hotel Stay', 'Meals', 'Darshan & Guidance'],
+    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.01.56%20PM-woC1M7Mq7CCM59a99qFIrHjSFfmOjE.jpeg',
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ const trendingPackages = [
     duration: '4 Nights / 5 Days',
     highlights: ['Srinagar', 'Baltal', 'Amarnath Cave', 'Helicopter Option Available'],
     includes: ['Cab Transfers', 'Hotel Stay', 'Meals', 'Yatra Assistance'],
+    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.02.25%20PM-5DQK6XmC0mdckZY2fRf90GdM5POFqN.jpeg',
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ const trendingPackages = [
     duration: '2 Nights / 3 Days',
     highlights: ['Katra'],
     includes: ['Cab Transfers', 'Hotel Stay', 'Meals', 'Yatra Assistance', 'Sightseeing'],
+    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.16.13%20PM-Cf6DiHSUhL5jkOIxmeYNoEYHVftcOF.jpeg',
   },
   {
     id: 4,
@@ -32,6 +35,7 @@ const trendingPackages = [
     duration: '2 Nights / 3 Days',
     highlights: ['Spiritual sightseeing', 'Comfortable stay', 'Guided assistance'],
     includes: ['Cab Transfers', 'Hotel Stay', 'Meals'],
+    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.16.13%20PM-Cf6DiHSUhL5jkOIxmeYNoEYHVftcOF.jpeg',
   },
 ];
 
@@ -56,9 +60,13 @@ export default function TrendingPackagesSection() {
               key={pkg.id}
               className="bg-white flex flex-col text-center p-4 md:p-6 border border-gray-200 rounded"
             >
-              {/* Image Placeholder */}
-              <div className="w-full h-32 md:h-40 bg-gray-200 flex items-center justify-center mb-3 md:mb-4 -mx-4 md:-mx-6 -mt-4 md:-mt-6 rounded-t">
-                <span className="text-4xl md:text-5xl text-gray-400">□</span>
+              {/* Image */}
+              <div className="w-full h-32 md:h-40 mb-3 md:mb-4 -mx-4 md:-mx-6 -mt-4 md:-mt-6 rounded-t overflow-hidden">
+                <img 
+                  src={pkg.image} 
+                  alt={pkg.name}
+                  className="w-full h-full object-cover"
+                />
               </div>
 
               {/* Card Title */}
