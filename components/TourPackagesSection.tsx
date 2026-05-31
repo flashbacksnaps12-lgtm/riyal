@@ -12,7 +12,7 @@ const indianPackages = [
   { id: 1, name: 'Kashmir Tour Package', emoji: '🏔️', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.02.25%20PM-5DQK6XmC0mdckZY2fRf90GdM5POFqN.jpeg' },
   { id: 2, name: 'Himachal Tour Package', emoji: '🏞️', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.01.56%20PM-woC1M7Mq7CCM59a99qFIrHjSFfmOjE.jpeg' },
   { id: 3, name: 'Masoori Tour Package', emoji: '⛰️', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the-mall-road-mussoorie-tourism-header-QjRrgEsGBoBWFkd6mIXDe6ac1sEzZD.jpg' },
-  { id: 4, name: 'Uttarakhand Tour Package', emoji: '🌲', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.16.52%20PM-zsJha3WDeQZokbtdipNPfFFSMB5TKr.jpeg' },
+  { id: 4, name: 'Uttarakhand Tour Package', emoji: '🌲', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.16.13%20PM-xqDIpF3KDKSP8zHPnscuo9VqD3MrTH.jpeg' },
   { id: 5, name: 'Delhi | Agra Tour Package', emoji: '🕌', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.11.49%20PM-mb7XMxXaNfs6JCEXKZKRI7Tr61eKTU.jpeg' },
   { id: 6, name: 'Goa Tour Package', emoji: '🏖️', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.08.03%20PM-t17xBweRwrQHlfgSO5tkbQCd1TjxYt.jpeg' },
   { id: 7, name: 'Rajasthan Tour Package', emoji: '🏰', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.12.54%20PM-DKCq1gotaLh9z95dKQ5dBI5ON30x6B.jpeg' },
