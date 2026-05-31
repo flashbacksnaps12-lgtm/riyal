@@ -21,12 +21,12 @@ const indianPackages = [
 ];
 
 const spiritualPackages = [
-  { id: 1, name: 'Char Dham Tour Package', emoji: '⛩️' },
-  { id: 2, name: 'Shirdi Tour Package', emoji: '🕉️' },
-  { id: 3, name: 'Vaishno Devi Tour Package', emoji: '🙏' },
-  { id: 4, name: 'Amarnath Tour Package', emoji: '⛩️' },
-  { id: 5, name: 'Haridwar Tour Package', emoji: '🌊' },
-  { id: 6, name: 'Varanasi Tour Package', emoji: '🕯️' },
+  { id: 1, name: 'Char Dham Tour Package', emoji: '⛩️', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.18.22%20PM-XtMGyLvuw4r3z442iXE3CwjaW4prw3.jpeg' },
+  { id: 2, name: 'Shirdi Tour Package', emoji: '🕉️', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Sai-Baba-Samadhi-Mandir-t6BGiKnHtW36jf6Hdu9bGjhjaF3G82.jpg' },
+  { id: 3, name: 'Vaishno Devi Tour Package', emoji: '🙏', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.53.11%20PM-MsA5vWowA9foKOxpbHC0ggkbx0FB94.jpeg' },
+  { id: 4, name: 'Amarnath Tour Package', emoji: '⛩️', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.51.52%20PM-HLAJ2iQnNknCkWPev6jE16Vv8vXVve.jpeg' },
+  { id: 5, name: 'Haridwar Tour Package', emoji: '🌊', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-30%20at%209.53.47%20PM-XSdDcUtI2KKNWKaSbdc8XW7fjIYuk0.jpeg' },
+  { id: 6, name: 'Varanasi Tour Package', emoji: '🕯️', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Early-Morning-Boat-Ride-in-Varansi-51tX9BGSacUe5nlAGwFW8ZzUkTDAib.webp' },
 ];
 
 export default function TourPackagesSection() {
