@@ -54,14 +54,14 @@ export default function TrendingPackagesSection() {
         </div>
 
         {/* Package Cards - 4 in one row on desktop, 1 per row on mobile */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 place-items-center lg:place-items-stretch">
           {trendingPackages.map((pkg) => (
             <div
               key={pkg.id}
-              className="bg-white flex flex-col text-center p-4 md:p-6 border border-gray-200 rounded"
+              className="bg-white flex flex-col text-center p-4 md:p-6 border border-gray-200 rounded w-full sm:w-full lg:w-full max-w-sm sm:max-w-full"
             >
               {/* Image */}
-              <div className="w-full h-32 md:h-40 mb-3 md:mb-4 -mx-4 md:-mx-6 -mt-4 md:-mt-6 rounded-t overflow-hidden">
+              <div className="w-full aspect-video mb-3 md:mb-4 -mx-4 md:-mx-6 -mt-4 md:-mt-6 rounded-t overflow-hidden">
                 <img 
                   src={pkg.image} 
                   alt={pkg.name}
